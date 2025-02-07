@@ -1,8 +1,9 @@
 {
-  "name": "vite-starter",
+  "name": "WhatsApp-Message-Monitor",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "author": "Dalpat singh rathore",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
