@@ -2,11 +2,10 @@
 if (!window.whatsAppMonitorInjected) {
   window.whatsAppMonitorInjected = true;
 
+  //check user notifications
   Notification.requestPermission().then(permission => {
     if (permission === 'granted') {
-      // Permission granted, proceed to send notifications
     } else {
-      // Permission denied, handle accordingly
     }
   });
   
